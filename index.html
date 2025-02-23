@@ -7,7 +7,18 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container"></div>
+    <form>
+      <h1>Kalkulator zapremine valjka</h1>
+      <label for="radius">r – poluprečnik osnove valjka</label>
+      <input type="number" class="radius" />
+      <label for="height">H – visina</label>
+      <input type="number" class="height" />
+      <button type="submit">
+        Izračunaj zapreminu valjka
+        <p>(V = r2 * π * H)</p>
+      </button>
+      <input type="text" disabled class="result" />
+    </form>
     <script src="script.js"></script>
   </body>
 </html>
